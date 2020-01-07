@@ -6,5 +6,5 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App title={'I from props!'}/>, document.getElementById('root'));
 serviceWorker.unregister();
